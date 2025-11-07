@@ -1,5 +1,5 @@
 const today = new Date();
-let year = today.getFullYear();
+const year = today.getFullYear();
 let christmas = new Date(year, 11, 25); // 11 = December (months are 0-based)
 
 if (today > christmas) {
